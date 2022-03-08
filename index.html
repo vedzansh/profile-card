@@ -103,6 +103,7 @@
             height: 200px;
             width: 200px;
             transition: 1s;
+            border-radius: 100%;            
             margin: 20px 20px 10px 20px;
             border-radius: 70px 5px 70px 5px;
         }
@@ -163,9 +164,16 @@
             /* animation: anime 5s infinite; */
             /* border: solid; */
             /* padding: ; */
+            transition: .3s;
             padding: 1px;
             border-radius: 10px;
             /* background-color: rgb(88, 21, 79); */
+        }
+        .skill:hover {
+            #skill (color: blue;);
+            border: solid 5px;
+            /* #39A2DB */
+            border-color: linear-gradient(red, yellow);
         }
 
         .lang {
@@ -173,7 +181,14 @@
             padding: 10px;
             font-size: 20px;
             border-radius: 5px;
+            transition: .3s;
             background-color: #3C415C;
+        }
+        /* #skill:hover {
+            color: #39A2DB;
+        } */
+        .lang:hover {
+            background-color: #39A2DB;
         }
     </style>
 </head>
@@ -185,7 +200,7 @@
             <h1>Vedansh Singour</h1>
             <h3>Aspiring Webdeveloper</h3>
             <div class="skill">
-                <h2>Skills</h2>
+                <h2 id="skill">Skills</h2>
                 <p>
                     <span class="lang"> HTML</span><span class="lang">CSS</span><span class="lang">Python</span>
                 </p>
